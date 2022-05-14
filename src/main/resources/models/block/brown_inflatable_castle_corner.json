@@ -1,0 +1,6 @@
+{
+  "parent": "jumping_castle:templates/inflatable_castle_corner",
+  "textures": {
+    "all": "minecraft:block/brown_shulker_box"
+  }
+}
