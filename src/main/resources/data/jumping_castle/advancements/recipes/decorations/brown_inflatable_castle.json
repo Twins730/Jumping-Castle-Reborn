@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["jumping_castle:brown_castle_block"]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:string"]}]}
+    }
+  },
+  "requirements": [["has_items"]]
+}
