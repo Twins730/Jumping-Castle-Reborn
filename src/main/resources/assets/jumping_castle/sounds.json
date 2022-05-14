@@ -1,0 +1,12 @@
+{
+    "bounce": {
+        "category": "block",
+        "subtitle": "bounce",
+        "sounds": [
+            {
+                "name": "jumping_castle:bounce",
+                "stream": true
+            }
+        ]
+    }
+}

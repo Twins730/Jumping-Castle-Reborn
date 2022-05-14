@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="jumping_castle"
+version="${file.jarVersion}"
+displayName="Jumping Castle"
+logoFile="examplemod.png"
+credits="MrCrayFish for the original idea!"
+authors="Twins730"
+description='''
+
+I wanted this mod in the 1.16.5 update for my modded world!
+MrCrayFish will not be updating the mod for this version, I made it my self!
+
+'''
+
+[[dependencies.jumping_castle]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jumping_castle]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
